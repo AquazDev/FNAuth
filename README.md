@@ -1,2 +1,2 @@
-# FNAuth
-FNAuth Tool 
+# FNAuth Tool
+Epic Games Authorization Tool
