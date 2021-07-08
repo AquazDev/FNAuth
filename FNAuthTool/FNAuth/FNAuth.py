@@ -13,7 +13,7 @@ class EndpointsURLs:
 #StartUp
 class FNAuthStartUP:
     print (Fore.LIGHTMAGENTA_EX + '[FNAuth] ', end = "")
-    print (Fore.WHITE + f'| Started FNAuth Made By LunakisLeaks')
+    print (Fore.WHITE + f'| Started FNAuth Made By AquazDev')
     print ('-------------------------------------------------')
 
 #EXCode Question
