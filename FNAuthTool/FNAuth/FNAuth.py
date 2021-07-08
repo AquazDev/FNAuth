@@ -35,7 +35,6 @@ class NiteStatsBearer:
     bearerToken = request.json()['accessToken']
     print()
 
-
 #EG1
 class EG1:
     Token = EndpointsURLs.tokenurl
@@ -45,5 +44,5 @@ class EG1:
         'Authorization': 'basic MzQ0NmNkNzI2OTRjNGE0NDg1ZDgxYjc3YWRiYjIxNDE6OTIwOWQ0YTVlMjVhNDU3ZmI5YjA3NDg5ZDMxM2I0MWE='
         }
     response = requests.request("POST", Token, headers=headers, data=payload)
-    response1 = response.json()['access_token']
-    print(f'Access Token: ' + Fore.CYAN + response1)
+    EG1Token = response.json()['access_token']
+    print(f'Access Token: ' + Fore.CYAN + EG1Token)
